@@ -1,0 +1,7 @@
+// X(output 자료형, 함수 이름, input)
+
+// 구현은 print.c에서 한다.
+X(void, print, const char *list)
+
+// 구현은 test.c에서 한다.
+X(void, test1, int test_int1, int test_int2)
