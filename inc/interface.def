@@ -1,7 +1,12 @@
 // X(output 자료형, 함수 이름, input)
+// 구현은 state_estimate.c에서 한다.
+X(State, state_estimate, void)
 
-// 구현은 print.c에서 한다.
-X(void, print, const char *list)
+// 구현은 control_pendulum.c에서 한다.
+X(float, control_pendulum, State state)
 
-// 구현은 test.c에서 한다.
-X(void, test1, int test_int1, int test_int2)
+// 구현은 motor_control.c에서 한다.
+X(void, motor_control, float angular_acceleration)
+
+// 구현은 deadline_wait.c에서 한다.
+X(void, deadline_wait, void)
